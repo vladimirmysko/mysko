@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+import { getI18n } from '@/locales/server';
 import localFont from 'next/font/local';
 import { cn } from '@/lib/utils';
 import { Providers } from './providers';
@@ -29,6 +31,15 @@ const interDisplay = localFont({
   variable: '--font-inter-display',
 });
 
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getI18n();
+
+  return {
+    title: t('title'),
+    description: t('description'),
+  };
+}
+
 interface LocaleLayoutProps {
   children: React.ReactNode;
   params: { locale: string };
@@ -40,7 +51,7 @@ export default function LocaleLayout({ children, params }: Readonly<LocaleLayout
       <body
         className={cn(
           interDisplay.variable,
-          'font-sans text-base text-black antialiased selection:bg-black selection:text-white'
+          'bg-white font-sans text-base text-black antialiased selection:bg-black selection:text-white dark:bg-black dark:text-white'
         )}
         style={{ textRendering: 'optimizeLegibility' }}
       >
