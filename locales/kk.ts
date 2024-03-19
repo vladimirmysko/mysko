@@ -15,4 +15,8 @@ export default {
   masters_student_at: 'Магистрант ',
   wkau: 'БҚАТУ',
   specializes_in_innovation: 'Инновация және бағдарламалық қамтамасыз ету дамытуға маманданған',
+  locale_links: {
+    wkitu: 'https://wkitu.kz/kk/glavnaja-stranica/',
+    wkau: 'https://wkau.edu.kz/',
+  },
 } as const;

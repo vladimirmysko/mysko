@@ -51,7 +51,8 @@ export default function LocaleLayout({ children, params }: Readonly<LocaleLayout
       <body
         className={cn(
           interDisplay.variable,
-          'bg-white font-sans text-base text-black antialiased selection:bg-black selection:text-white dark:bg-black dark:text-white'
+          'bg-white font-sans text-base text-black antialiased selection:bg-black selection:text-white',
+          'dark:bg-black dark:text-white dark:selection:bg-white dark:selection:text-black'
         )}
         style={{ textRendering: 'optimizeLegibility' }}
       >

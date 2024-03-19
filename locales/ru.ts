@@ -15,4 +15,8 @@ export default {
   masters_student_at: 'Магистрант в ',
   wkau: 'ЗКАТУ',
   specializes_in_innovation: 'Специализируется на инновациях и разработке программного обеспечения',
+  locale_links: {
+    wkitu: 'https://wkitu.kz/ru/glavnaja-stranica-2/',
+    wkau: 'https://wkau.edu.kz/ru/',
+  },
 } as const;

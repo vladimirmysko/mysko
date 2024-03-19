@@ -20,13 +20,13 @@ export default async function HomePage() {
             <li>{t('founder_of_mysko')}</li>
             <li>
               {t('developed_an_online_tester')}
-              <Link className="underline" href="https://wkitu.kz/en/main-page/" target="_blank">
+              <Link className="underline" href={t('locale_links.wkitu')} target="_blank">
                 {t('wkitu')}
               </Link>
             </li>
             <li>
               {t('masters_student_at')}
-              <Link className="underline" href="https://wkau.edu.kz/en/" target="_blank">
+              <Link className="underline" href={t('locale_links.wkau')} target="_blank">
                 {t('wkau')}
               </Link>
             </li>
