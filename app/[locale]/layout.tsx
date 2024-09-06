@@ -5,15 +5,21 @@ import { cn } from '@/utils';
 
 import { I18nProviderClient } from '@/locales/client';
 
-const geistSans = localFont({
-  src: '../fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
-});
-const geistMono = localFont({
-  src: '../fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
+const interDisplay = localFont({
+  src: [
+    {
+      path: '../fonts/InterDisplay-Regular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../fonts/InterDisplay-Medium.woff2',
+      weight: '500',
+      style: 'normal',
+    },
+  ],
+  display: 'swap',
+  variable: '--font-inter-display',
 });
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -32,7 +38,11 @@ export default function LocaleLayout({
   return (
     <html
       lang={params.locale}
-      className={cn(geistSans.variable, geistMono.variable, 'scroll-smooth')}
+      className={cn(
+        interDisplay.variable,
+        'scroll-smooth',
+        'selection:text-gray-1000 selection:bg-gray-300'
+      )}
       style={{ textRendering: 'optimizeLegibility' }}
     >
       <body className="font-sans antialiased">
