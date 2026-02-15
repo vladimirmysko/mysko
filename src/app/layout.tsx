@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="bg-white text-black dark:bg-black dark:text-white"
+      className="bg-white text-base text-black dark:bg-black dark:text-white"
     >
       <body className={inter.variable}>{children}</body>
     </html>
