@@ -43,7 +43,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<'/[
 
   return (
     <html lang={locale} className={inter.variable}>
-      <body className="flex min-h-full flex-col">
+      <body className="font-normal">
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>

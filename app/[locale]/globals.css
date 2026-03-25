@@ -1,14 +1,7 @@
 @import 'tailwindcss';
 
-@layer base {
-  * {
-    @apply tracking-[-0.01em];
-  }
-}
-
 @theme {
-  --font-weight-normal: 450;
-  --font-weight-medium: 550;
+  --font-weight-normal: 440;
 }
 
 :root {
