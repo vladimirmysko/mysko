@@ -6,7 +6,8 @@ declare const messages: {
     "name": "Mysko"
   },
   "LocaleLayout": {
-    "title": "Mysko"
+    "title": "Mysko",
+    "description": "Vladimir Mysko — full-stack developer in Oral, Kazakhstan. React, Next.js, TypeScript, educational platforms, and business web applications."
   },
   "HomePage": {
     "name": "Vladimir Mysko",
@@ -16,7 +17,12 @@ declare const messages: {
     "currentWork": "I currently work at <org>West Kazakhstan Innovation and Technology University</org>, where I build educational platforms: remote testing, AI text checking, and timetable management.",
     "mysko": "Alongside that, I run my own practice under the Mysko brand, building corporate sites and CRM solutions for businesses.",
     "philosophy": "I see myself as an engineer who doesn't just write code but designs architecture and ships products with measurable outcomes.",
-    "contact": "Get in touch: <email>vladimir.mysko@gmail.com</email>"
+    "contact": "Get in touch: <email>vladimir.mysko@gmail.com</email>",
+    "metaTitle": "Vladimir Mysko — full-stack developer",
+    "metaDescription": "Full-stack developer from Oral, Kazakhstan. Scalable web apps with React, Next.js, and TypeScript — educational platforms, CRM systems, and corporate sites.",
+    "jsonLdJobTitle": "Full-stack developer",
+    "jsonLdAddressLocality": "Oral",
+    "jsonLdAddressCountry": "Kazakhstan"
   }
 };
 export default messages;
