@@ -4,5 +4,15 @@
   },
   "LocaleLayout": {
     "title": "Mysko"
+  },
+  "HomePage": {
+    "name": "Vladimir Mysko",
+    "updated": "Updated March 25, 2026",
+    "intro": "I was born and live in Oral, Kazakhstan. Full-stack developer with 6+ years of commercial experience.",
+    "specialization": "I specialize in building scalable web applications with React, Next.js, and TypeScript. I've worked with automotive businesses, educational institutions, and my own projects, from CRM systems to AI-powered plagiarism checking.",
+    "currentWork": "I currently work at <org>West Kazakhstan Innovation and Technology University</org>, where I build educational platforms: remote testing, AI text checking, and timetable management.",
+    "mysko": "Alongside that, I run my own practice under the Mysko brand, building corporate sites and CRM solutions for businesses.",
+    "philosophy": "I see myself as an engineer who doesn't just write code but designs architecture and ships products with measurable outcomes.",
+    "contact": "Get in touch: <email>vladimir.mysko@gmail.com</email>"
   }
 }
